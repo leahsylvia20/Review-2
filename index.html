@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Vacation Suggester</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Welcome to Leah's Vacation Suggester Site</h1>
+      <h2>Answer the questions below to learn about your dream vacation destination!</h2>
+      <div class="row">
+        <div class="col-sm-2"><img src="img/bangkok.jpg" alt="Bangkok at night." width="300px" height="auto"></div>
+        <div class="col-sm-2"><img src="img/mapi.jpg" width="300px" height="auto"></div>
+        <div class="col-sm-2 london"><img src="img/london.jpg" width="300px" height="auto"></div>
+        <div class="col-sm-2"><img src="img/fiji.jpg" width="300px" height="auto"></div>
+        <div class="col-sm-2"><img src="img/baja.jpg" width="300px" height="auto"></div>
+      </div>
+      <form id="form-group">
+        <label for="name">What is your name?</label>
+        <input id="name" class="form-control" type="text">
+
+        <div>
+            <h3>1. What is your trip budget?</h3>
+          <div class="radio">
+            <label>
+              <input type="radio" name="budget" value="1">living on the edge, budget shoestring traveler, I love hostel beds
+            </label>
+          </div>
+
+          <div class="radio">
+            <label>
+              <input type="radio" name="budget" value="2">$30 a day with a few splurges here and there
+            </label>
+          </div>
+
+          <div class="radio">
+            <label>
+              <input type="radio" name="budget" value="3">$50/day so I can enjoy the local cuisine
+            </label>
+          </div>
+
+          <div class="radio">
+            <label>
+              <input type="radio" name="budget" value="4">$100/day is the sweet spot for me
+            </label>
+          </div>
+
+          <div class="radio">
+            <label>
+              <input type="radio" name="budget" value="5">$700/day or more, who cares I'm not paying for it
+            </label>
+          </div>
+        </div>
+
+        <div>
+          <h3>2. What types of sights and activities do you enjoy while traveling?</h3>
+          <div class="radio">
+            <label>
+              <input type="radio" name="sights" value="1">explore a big bustling city, night markets, street food, and chat with friendly foreigners
+            </label>
+          </div>
+
+          <div class="radio">
+            <label>
+              <input type="radio" name="sights" value="2">see unspoiled coastline, sunbathe all day, snorkel, and go clamming or maybe whale watching
+            </label>
+          </div>
+
+          <div class="radio">
+            <label>
+              <input type="radio" name="sights" value="3">visit ancient ruins, go mountain hiking and biking, check out other historical sights
+            </label>
+          </div>
+
+          <div class="radio">
+            <label>
+              <input type="radio" name="sights" value="4">check out world renowned museums, visit palaces, go to a Shakespeare play, and drink in local pubs
+            </label>
+          </div>
+
+          <div class="radio">
+            <label>
+              <input type="radio" name="sights" value="5">relax, get a massage, eat fancy dinners, and sip cocktails in a lounge chair
+            </label>
+          </div>
+        </div>
+
+        <div>
+          <h3>3. What is your ideal vacation weather?</h3>
+          <div class="radio">
+            <label>
+              <input type="radio" name="weather" value="1">mostly warm would be nice, but some rain is okay
+            </label>
+          </div>
+
+          <div class="radio">
+            <label>
+              <input type="radio" name="weather" value="2">always sunny, dependable, with a cool ocean breeze
+            </label>
+          </div>
+
+          <div class="radio">
+            <label>
+              <input type="radio" name="weather" value="3">okay with wet season or dry season
+            </label>
+          </div>
+
+          <div class="radio">
+            <label>
+              <input type="radio" name="weather" value="4">just not too cold, but a little dreary is fine by me
+            </label>
+          </div>
+
+          <div class="radio">
+            <label>
+            <input type="radio" name="weather" value="5">perfect all the time, sunny with blue skies, and breezy nights
+            </label>
+          </div>
+        </div>
+
+        <div>
+          <h3>4. How far of a distance can you travel to get to your ideal vacation spot?</h3>
+          <div class="radio">
+            <label>
+              <input type="radio" name="distance" value="1">far far away please, I don't mind an overnight flight
+            </label>
+          </div>
+
+          <div class="radio">
+            <label>
+              <input type="radio" name="distance" value="2">close-ish to the Pacific Ocean so I can drive my van por favor
+            </label>
+          </div>
+
+          <div class="radio">
+            <label>
+              <input type="radio" name="distance" value="3">preferably under 12 hours
+            </label>
+          </div>
+
+          <div class="radio">
+            <label>
+              <input type="radio" name="distance" value="4">across the Atlantic would be swell
+            </label>
+          </div>
+
+          <div class="radio">
+            <label>
+              <input type="radio" name="distance" value="5">don't care, doesn't matter, I'll fly any distance to sit on a pristine beach
+            </label>
+          </div>
+        </div>
+
+        <div>
+            <h3>5. What is your travel style?</h3>
+          <div class="radio">
+            <label>
+              <input type="radio" name="style" value="1">DIY itinerary, walking the city streets, using various forms of public transportation
+            </label>
+          </div>
+
+          <div class="radio">
+            <label>
+              <input type="radio" name="style" value="2">anywhere I can drive my van to man
+            </label>
+          </div>
+
+          <div class="radio">
+            <label>
+              <input type="radio" name="style" value="3">backpacking and hiking around, flexibility is key
+            </label>
+          </div>
+
+          <div class="radio">
+            <label>
+            <input type="radio" name="style" value="4">I love taking the subway, double decker buses and guided tours, please and thank you
+            </label>
+          </div>
+
+          <div class="radio">
+            <label>
+              <input type="radio" name="style" value="5">private helicopter and ocean cruise only
+            </label>
+          </div>
+        </div>
+
+          <button type="submit" class="btn">Go!</button>
+
+        <div>
+          <div id="bangkok">Book your tix to Bangkok today!
+          <img src="img/bangkok.jpg"></div>
+
+          <div id="baja">Hit the road for Baja, Mexico!
+          <img src="img/baja.jpg"></div>
+
+          <div id="mapi">Pack your backpack to explore Machu Pichhu!
+          <img src="img/mapi.jpg"></div>
+
+          <div id="london">Keep calm and carry on to London.
+          <img src="img/london.jpg"></div>
+
+          <div id="fiji">Sail away on Fiji...
+          <img src="img/fiji.jpg"></div>
+
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

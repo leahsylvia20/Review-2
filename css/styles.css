@@ -1,0 +1,58 @@
+button {
+  background-color: darkgreen;
+  color: white;
+}
+
+h1 {
+  color: darkgreen;
+  font-size: 22px;
+  font-family:sans-serif;
+  font-weight: bolder;
+}
+
+h2 {
+  color: gray;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight:400;
+}
+
+h3 {
+  color: darkblue;
+  font-size: 18px;
+  font-family: serif;
+  font-weight:bold;
+}
+
+h4 {
+  color: orange;
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: serif;
+}
+
+p {
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: 300;
+}
+
+#bangkok {
+  display: none;
+}
+
+#baja {
+  display: none;
+}
+
+#mapi {
+  display: none;
+}
+
+#london {
+  display: none;
+}
+
+#fiji {
+  display: none;
+}
